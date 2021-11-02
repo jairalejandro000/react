@@ -1,38 +1,25 @@
-.App {
+.App{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App header{
+  margin-top: 20px;
+  color: rgb(65, 62, 62);
+  font-size: 30px;
+}
+.meme span{
+  color: White;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 30px;
+  width: 100%;
+  left: 0%;
+  text-shadow: 2px 2px 5px black;
+}
+.meme span:nth-child(1){
+  margin-top: 350px;
+}
+.meme img{
+  width: 100%;
+  height: 30%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
